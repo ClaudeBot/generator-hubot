@@ -1,22 +1,38 @@
 # <%= appname %>
 
+[![Build Status](https://travis-ci.org/ClaudeBot/<%= appname %>.svg)](https://travis-ci.org/ClaudeBot/<%= appname %>)
+[![devDependency Status](https://david-dm.org/ClaudeBot/<%= appname %>/dev-status.svg)](https://david-dm.org/ClaudeBot/<%= appname %>#info=devDependencies)
+
 <%= scriptDescription %>
 
 See [`src/<%= scriptName %>.coffee`](src/<%= scriptName %>.coffee) for full documentation.
 
-## Installation
 
-In hubot project repo, run:
+## Installation via NPM
 
-`npm install <%= appname %> --save`
+1. Install the **<%= appname %>** module as a Hubot dependency by running:
 
-Then add **<%= appname %>** to your `external-scripts.json`:
+    ```
+    npm install --save <%= appname %>
+    ```
 
-```json
-[
-  "<%= appname %>"
-]
-```
+2. Enable the module by adding the **<%= appname %>** entry to your `external-scripts.json` file:
+
+    ```json
+    [
+        "<%= appname %>"
+    ]
+    ```
+
+3. Run your bot and see below for available config / commands
+
+
+## Commands
+
+Command | Listener ID | Description
+--- | --- | ---
+hubot hello | hello | what the respond trigger does
+
 
 ## Sample Interaction
 
