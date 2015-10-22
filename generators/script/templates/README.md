@@ -31,7 +31,7 @@ See [`src/<%= scriptName %>.coffee`](src/<%= scriptName %>.coffee) for full docu
 
 Command | Listener ID | Description
 --- | --- | ---
-hubot hello | hello | what the respond trigger does
+hubot hello | `hello` | what the respond trigger does
 
 
 ## Sample Interaction
