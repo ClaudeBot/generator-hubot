@@ -40,3 +40,7 @@ hubot hello | `hello` | what the respond trigger does
 user1>> hubot hello
 hubot>> hello!
 ```
+
+## NPM Module
+
+https://www.npmjs.com/package/<%= appname %>
