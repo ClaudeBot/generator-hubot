@@ -27,6 +27,13 @@ See [`src/<%= scriptName %>.coffee`](src/<%= scriptName %>.coffee) for full docu
 3. Run your bot and see below for available config / commands
 
 
+## Configuration
+
+Variable | Default | Description
+--- | --- | ---
+`VARIABLE` | N/A | what the variable is for
+
+
 ## Commands
 
 Command | Listener ID | Description
